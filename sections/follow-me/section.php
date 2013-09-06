@@ -6,14 +6,14 @@
 	Description: Get more social media followers by adding this section to your website. For PageLines DMS only.
 	Class Name: FollowMe
 	Demo: http://www.simplemama.com
-	Version: 1.0
+	Version: 1.02
 	Filter: social
 	v3: true
 */
 
 class FollowMe extends PageLinesSection {
 
-	const version = '1.0';
+	const version = '1.02';
 
 /* STUFF THAT LOADS ONLY IN THE SECTION HEADER */
 
