@@ -4,16 +4,16 @@
 	Author: Simple Mama
 	Author URI: http://www.simplemama.com
 	Description: Get more social media followers by adding this section to your website. For PageLines DMS only.
-	Class Name: FollowMe
+	Class Name: FollowMeDMS
 	Demo: http://www.simplemama.com
-	Version: 1.0
+	Version: 1.01
 	Filter: social
 	v3: true
 */
 
-class FollowMe extends PageLinesSection {
+class FollowMeDMS extends PageLinesSection {
 
-	const version = '1.0';
+	const version = '1.01';
 
 /* STUFF THAT LOADS ONLY IN THE SECTION HEADER */
 
