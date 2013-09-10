@@ -6,14 +6,14 @@
 	Description: Get more social media followers by adding this section to your website. For PageLines DMS only.
 	Class Name: FollowMe
 	Demo: http://www.simplemama.com
-	Version: 1.0
+	Version: 1.01
 	Filter: social
 	v3: true
 */
 
 class FollowMe extends PageLinesSection {
 
-	const version = '1.0';
+	const version = '1.01';
 
 /* STUFF THAT LOADS ONLY IN THE SECTION HEADER */
 
@@ -81,7 +81,8 @@ class FollowMe extends PageLinesSection {
 		}
 		if ($this->opt('email')) {
 			printf($string, $email, 'Email Newsletter', $color, 'email', 'Email newsletter', $size, $size);
-		} else {
+		}
+		if ( ('' == $this->opt('facebook')) && ('' == $this->opt('twitter')) && ('' == $this->opt('googleplus')) && ('' == $this->opt('instagram')) && ('' == $this->opt('pinterest')) && ('' == $this->opt('etsy')) && ('' == $this->opt('bloglovin')) && ('' == $this->opt('stumble')) && ('' == $this->opt('flickr')) && ('' == $this->opt('youtube')) && ('' == $this->opt('tumblr')) && ('' == $this->opt('linkedin')) && ('' == $this->opt('rss')) && ('' == $this->opt('email')) ) {
 			echo setup_section_notify($this, 'Please set up Follow Me');
 		}
 	}
